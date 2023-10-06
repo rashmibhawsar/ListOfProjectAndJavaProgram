@@ -1,0 +1,7 @@
+1686132996064	Move 'com.hibernate.cfg.xml' to 'model'
+1686136333155	Rename resource 'Deletecustomerform.jsp'
+1686136384162	Rename resource 'Updatecustomerform.jsp'
+1686136404343	Rename resource 'view_searchdataform.jsp'
+1686136994736	Rename resource 'Addcustomerform_regesration.jsp'
+1686149632087	Move 'com.hibernate.cfg.xml' to 'java'
+1686150127643	Rename resource 'com.hibernate.cfg.xml'

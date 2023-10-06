@@ -1,0 +1,11 @@
+127.0.0.1 - - [25/Jun/2023:20:48:07 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [25/Jun/2023:20:48:08 +0530] "GET /ASpringMVCWithJdbc/ HTTP/1.1" 200 405
+0:0:0:0:0:0:0:1 - - [25/Jun/2023:20:48:08 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [25/Jun/2023:20:48:13 +0530] "GET /ASpringMVCWithJdbc/registerform1 HTTP/1.1" 200 547
+0:0:0:0:0:0:0:1 - - [25/Jun/2023:20:48:13 +0530] "GET /ASpringMVCWithJdbc/business-women-signature-document_1388-90.avif HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [25/Jun/2023:20:48:30 +0530] "POST /ASpringMVCWithJdbc/processregistrationform HTTP/1.1" 200 1362
+127.0.0.1 - - [25/Jun/2023:20:53:05 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [25/Jun/2023:20:53:05 +0530] "GET /ASpringMVCWithJdbc/ HTTP/1.1" 200 405
+0:0:0:0:0:0:0:1 - - [25/Jun/2023:20:53:07 +0530] "GET /ASpringMVCWithJdbc/registerform1 HTTP/1.1" 200 547
+0:0:0:0:0:0:0:1 - - [25/Jun/2023:20:53:07 +0530] "GET /ASpringMVCWithJdbc/business-women-signature-document_1388-90.avif HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [25/Jun/2023:20:57:56 +0530] "POST /ASpringMVCWithJdbc/processregistrationform HTTP/1.1" 200 268

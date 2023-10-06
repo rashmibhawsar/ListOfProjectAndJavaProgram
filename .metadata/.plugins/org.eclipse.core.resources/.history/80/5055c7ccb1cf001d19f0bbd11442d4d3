@@ -1,0 +1,30 @@
+package day9;
+
+import java.util.Scanner;
+
+public class sellerDetails {
+	String pname;
+	int price;
+	int qty;
+	
+	void input()
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter seller name");
+		pname =sc.next();
+		System.out.println("enter seller price");
+		price =sc.nextInt();
+		System.out.println("enter seller qty");
+		qty =sc.nextInt();
+		
+	}
+	void display()
+	{
+		System.out.println(pname);
+		System.out.println(price);
+		System.out.println(qty);
+	}
+
+
+
+}

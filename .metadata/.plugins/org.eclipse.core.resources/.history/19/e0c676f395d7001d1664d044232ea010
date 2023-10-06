@@ -1,0 +1,39 @@
+package day13;
+
+
+class Vehical
+{
+	public Vehical() {		System.out.println("vehical");	}
+	Vehical(int i)	{		System.out.println("Vehical _parameter");	}
+
+}
+
+class Bike extends Vehical
+{
+	public Bike() 		
+		{		System.out.println("bike ");	}
+	Bike(int y){
+		super(y);
+		System.out.println("bike parameter");}
+	
+}
+class Car extends Vehical 
+{
+	public Car() {
+		
+				System.out.println("scar");	}
+	Car(int e)	{
+		super(e);  //super must be the first statement in constructor 
+		System.out.println("car parameter");	}
+}
+
+public class InheritanceExample {
+
+	public static void main(String[] args) {
+		Bike k= new Bike();
+		Car c = new Car(5);
+		
+
+	}
+
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:p="http://www.springframework.org/schema/p" xmlns:util="http://www.springframework.org/schema/util" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation=" http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id="faculty" class="CoreSpring6AutoWiring.Faculty" p:name="rashmi" p:expertise="cdac student"/>
+<bean id="fac1" class="CoreSpring6AutoWiring.Faculty" p:name="siya" p:expertise="cdac student" autowire-candidate="false"/>
+<bean id="course1" class="CoreSpring6AutoWiring.Course" p:name="pgdac" p:duration="4" autowire="byName"/><!-- "byName" or "byType": in couse.java it is using setter getter ,if ctor in .xml: then in course.java going though _setter setter -->
+</beans>

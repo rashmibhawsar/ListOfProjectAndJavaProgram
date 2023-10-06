@@ -1,0 +1,14 @@
+<!--   this file will store data information like driver user name pass  -->
+<hibernate-configuration>
+<session-factory>
+<property name="hibernate.dialect"> org.hibernate.dialect.MySQL8Dialect</property><!-- which db u have jar file and verion of db -->
+<property name="hibernate.connection.driver_class"> com.mysql.cj.jdbc.Driver</property>
+<property name="hibernate.connection.url"> jdbc:mysql://localhost:3306/amazon2</property>
+<property name="hibernate.connection.username">root</property>
+<property name="hibernate.connection.password">Rashmi@0289</property>
+<property name="hbm2ddl.auto">update</property><!--  crearte at first time later add update -->
+<property name="show_sql">true</property><!-- show all propert create update  delete... tables-->
+<mapping class="com.model.SellerDetails"/>
+<mapping class="com.model.Customer"/>
+</session-factory>
+</hibernate-configuration>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;FirstDWP&apos; to &apos;FirstDynamicWebProjectUsingServelet&apos;" description="Rename resource &apos;FirstDWP&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/FirstDWP" name="FirstDynamicWebProjectUsingServelet" stamp="1683902558616" updateReferences="true"/>
+</session>

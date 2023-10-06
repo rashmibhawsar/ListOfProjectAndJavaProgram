@@ -1,0 +1,50 @@
+/* Q 6 write a java program and define an array, print all the elements 
+ * which are leaders. A Leader is an element that is greater than all of the elements
+ *  on its right side in the array.
+
+Examples:
+
+Example 1:
+Input:
+ arr = [5]
+Output:
+ 7 1 0
+Explanation:
+ Rightmost element is always a leader. 7 and 1 are 
+ greater than the elements in their right side.*/
+package day13;
+
+public class LeaderExample {
+
+	public static void main(String[] args) {
+
+		int arr[]= {10, 22, 12, 3, 0, 6};
+		int i;
+		int index=0;
+		int new_index=0;
+				
+		max = 0;
+		for(int k=index+1;k<arr.length;k++) {
+			if(k==new_index)
+				break;
+			int j;
+			for( j = k;j<arr.length;j++) {
+				/*if(j==(arr.length-1))
+					System.out.print(" "+arr[j]);*/
+						
+				if(arr[j]>max) {
+					max = arr[j];
+					new_index = j;
+					}
+				}
+			if(j==(arr.length-1))
+				System.out.print(" "+arr[j]);
+			System.out.print(" "+max);
+				 
+			}
+		
+		}
+
+		
+}
+

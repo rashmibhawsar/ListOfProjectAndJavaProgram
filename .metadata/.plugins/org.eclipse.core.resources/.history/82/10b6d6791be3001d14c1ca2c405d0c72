@@ -1,0 +1,49 @@
+package day18_assignment;
+
+import java.io.FileOutputStream;
+import java.io.ObjectOutputStream;
+import java.sql.Date;
+import java.util.Scanner;
+
+class Employee_Info {
+	int emp_no;
+	String Emp_name;
+	String Emp_address;
+	Scanner sc = new Scanner(System.in);
+	 void getinfo(){
+		 System.out.println("enter emo name");
+		Emp_name = sc.next();
+		System.out.println("enter emp number ");
+		emp_no = sc.nextInt();
+		 System.out.println("enter emo address");
+		Emp_address = sc.next();
+		}
+	 
+	 void display() {System.out.println("emp Name is : "+Emp_name);
+		System.out.println("emp_no  in  : "+emp_no);
+		System.out.println("emp address is : "+Emp_address);
+	
+	 }
+}
+public class employee51 {
+
+	public static void main(String[] args) throws Exception {
+
+		Employee_Info e = new Employee_Info();
+		e.getinfo();
+		e.display();
+		
+		FileOutputStream fos = new FileOutputStream("result_emp.txt");
+	    ObjectOutputStream oos = new ObjectOutputStream(fos);
+
+	      oos.writeObject(e.Emp_name);
+	      oos.writeInt(e.emp_no);
+	      oos.writeObject(e.Emp_address);
+
+	      oos.close();
+	      fos.close();
+
+	}
+}
+
+

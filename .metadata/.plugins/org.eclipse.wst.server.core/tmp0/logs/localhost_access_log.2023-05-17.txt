@@ -1,0 +1,5 @@
+127.0.0.1 - - [17/May/2023:23:45:50 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [17/May/2023:23:45:51 +0530] "GET /sessionmgmt/Registration.html HTTP/1.1" 200 3763
+0:0:0:0:0:0:0:1 - - [17/May/2023:23:45:51 +0530] "GET /sessionmgmt/css/style.css HTTP/1.1" 404 784
+0:0:0:0:0:0:0:1 - - [17/May/2023:23:45:51 +0530] "GET /sessionmgmt/Login.jpg HTTP/1.1" 200 118617
+0:0:0:0:0:0:0:1 - - [17/May/2023:23:45:51 +0530] "GET /favicon.ico HTTP/1.1" 404 762

@@ -1,0 +1,11 @@
+127.0.0.1 - - [18/Jun/2023:12:50:30 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [18/Jun/2023:12:50:30 +0530] "GET /ASpringMVCWithJdbc/ HTTP/1.1" 200 405
+0:0:0:0:0:0:0:1 - - [18/Jun/2023:12:50:30 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [18/Jun/2023:12:50:37 +0530] "GET /ASpringMVCWithJdbc/registerform1 HTTP/1.1" 200 547
+0:0:0:0:0:0:0:1 - - [18/Jun/2023:12:50:37 +0530] "GET /ASpringMVCWithJdbc/business-women-signature-document_1388-90.avif HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [18/Jun/2023:12:50:53 +0530] "POST /ASpringMVCWithJdbc/processregistrationform HTTP/1.1" 200 295
+0:0:0:0:0:0:0:1 - - [18/Jun/2023:12:51:58 +0530] "POST /ASpringMVCWithJdbc/processregistrationform HTTP/1.1" 200 1360
+0:0:0:0:0:0:0:1 - - [18/Jun/2023:12:52:02 +0530] "GET /ASpringMVCWithJdbc/processdeleteform6/1 HTTP/1.1" 200 980
+0:0:0:0:0:0:0:1 - - [18/Jun/2023:12:52:08 +0530] "POST /ASpringMVCWithJdbc/processregistrationform HTTP/1.1" 200 1170
+0:0:0:0:0:0:0:1 - - [18/Jun/2023:12:54:54 +0530] "GET /ASpringMVCWithJdbc/viewallstudentform HTTP/1.1" 200 1170
+0:0:0:0:0:0:0:1 - - [18/Jun/2023:12:57:47 +0530] "GET /ASpringMVCWithJdbc/viewallstudentform HTTP/1.1" 200 1170

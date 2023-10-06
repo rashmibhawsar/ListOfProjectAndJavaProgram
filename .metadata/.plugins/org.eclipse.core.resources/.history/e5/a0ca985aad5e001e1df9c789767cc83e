@@ -1,0 +1,192 @@
+package groupdisscussion_day1;
+
+import java.util.Scanner;
+
+class StringPgm
+{
+	void RevString() {
+		System.out.println("enter string");
+		Scanner sc = new Scanner(System.in);
+		String var1 =  sc.next();
+		int n = var1.length();
+		//using array
+		for(int i=n-1;i>0;i--)
+		{
+			System.out.print(var1.charAt(i));
+		}System.out.println();
+		
+		//using only string
+		String rev= "";
+		for(int i=0;i<n;i++) {
+			
+			rev= var1.charAt(i)+rev;
+		}
+		System.out.println(rev);
+		
+		// using stringbuffer
+		StringBuffer s = new StringBuffer(var1);
+		s.reverse();
+		System.out.println(s);
+		}
+//************print duplicate characters from a string?***********************
+	
+	void duplicates()
+	{
+		System.out.println("enter string");
+		Scanner sc = new Scanner(System.in);
+		String var1 =  sc.next();
+		int n = var1.length();
+		String duplicate="";
+		int count=0;
+		for(int i =0;i<n;i++) {
+			for(int j=i+1;j<n;j++)
+			{
+				if(var1.charAt(i)== var1.charAt(j))
+				{
+					duplicate=duplicate+var1.charAt(i);
+					count++;
+				}
+			}
+		}
+		System.out.println("duplicated values in string  :"+duplicate +"\ncount:" +count);
+		
+	}
+//..(slient,listen)(abcd,dbac)_ if two strings are anagrams of each other?
+	void anagrams()
+	{
+		System.out.println("enter strings");
+		Scanner sc = new Scanner(System.in);
+		String var1 =  sc.next();
+		String var2 =  sc.next();
+		int n1 = var1.length();
+		int n2 = var2.length();
+		int flag =0;
+		if(n1==n2)
+		{
+			for(int i=0;i<n1;i++)
+			{
+				for(int j=0;j<n1;j++)
+				{
+					if(var1.charAt(i)==var2.charAt(j))
+					{
+						flag++;
+						break;
+					}
+				}
+			}
+		}
+		if(flag==n1)
+		{
+			System.out.println("given string is anagram");
+		}
+		else
+		{
+			System.out.println("given string is not anagram");
+		}
+			
+
+	}
+//check if a string contains only digits?
+	void CheckString()
+	{
+		System.out.println("enter strings");
+		Scanner sc = new Scanner(System.in);
+		String var1 =  sc.next();
+		int n= var1.length();
+		int flag=1;
+		for(int i=0;i<n;i++)
+		{
+			if((var1.charAt(i)>57)||(var1.charAt(i)<48))
+			{
+				flag=0;
+				break;
+			}
+		}
+		if(flag==1)
+		{
+			System.out.println("string contains only digit ");
+		}
+		else
+		{
+			System.out.println("string does not contains only digits ");
+		}
+		
+	}
+	//check if a string contains only digits?
+		void Checkvowels()
+		{
+			System.out.println("enter strings");
+			Scanner sc = new Scanner(System.in);
+			String var1 =  sc.nextLine();
+			int n= var1.length();
+			int vowels=0;
+			int constants=0;
+			int spaces=0;int numbers=0;
+			for(int i=0;i<n;i++)
+			{
+				if(var1.charAt(i)=='a'||var1.charAt(i)=='e'||var1.charAt(i)=='i'||var1.charAt(i)=='o'||var1.charAt(i)=='u')
+				{vowels++;}
+				else if((var1.charAt(i)>='a')&&(var1.charAt(i)<='z'))
+				{
+					constants++;
+				}
+				else if((var1.charAt(i)>='0')&&(var1.charAt(i)<='9'))
+				{
+					numbers++;
+				}
+				else if(var1.charAt(i) == ' ')
+				{
+					spaces++;
+				}
+				
+			}
+			System.out.println("number of vowels in given string : " +vowels);
+			System.out.println("number of constants in given string : " +constants);
+			System.out.println("number of numbers in given string : " +numbers);
+			System.out.println("number of spaces in given string : " +spaces);
+}
+		//How do you check if a given string is a palindrome? 
+		void palindrome()
+		{
+			System.out.println("enter strings");
+			Scanner sc = new Scanner(System.in);
+			String var1 =  sc.nextLine();
+			int n1 = var1.length();
+			
+			int flag =0;
+			for(int i=0;i<n1;i++)
+				{
+					if((var1.charAt(i))!=(var1.charAt(n1-1)-i))
+					{
+						flag=1;
+					
+					}
+				
+				}
+			if(flag==1)
+			{
+				System.out.println("given string is not palindrom");
+			}
+			else
+			{
+				System.out.println("given string is palidrome");
+			}
+		}
+		
+}
+
+
+public class Day2_String {
+
+	public static void main(String[] args) {
+	StringPgm r = new StringPgm();
+	//r.RevString();
+	//r.duplicates();
+	//r.anagrams();
+	//r.CheckString();
+	//r.Checkvowels();
+	r.palindrome();
+
+	}
+
+}

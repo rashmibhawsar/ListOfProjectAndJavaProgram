@@ -1,0 +1,103 @@
+package groupdisscussion_day1;
+
+import java.util.Scanner;
+
+class StringPgm
+{
+	void RevString() {
+		System.out.println("enter string");
+		Scanner sc = new Scanner(System.in);
+		String var1 =  sc.next();
+		int n = var1.length();
+		//using array
+		for(int i=n-1;i>0;i--)
+		{
+			System.out.print(var1.charAt(i));
+		}System.out.println();
+		
+		//using only string
+		String rev= "";
+		for(int i=0;i<n;i++) {
+			
+			rev= var1.charAt(i)+rev;
+		}
+		System.out.println(rev);
+		
+		// using stringbuffer
+		StringBuffer s = new StringBuffer(var1);
+		s.reverse();
+		System.out.println(s);
+		}
+//************print duplicate characters from a string?***********************
+	
+	void duplicates()
+	{
+		System.out.println("enter string");
+		Scanner sc = new Scanner(System.in);
+		String var1 =  sc.next();
+		int n = var1.length();
+		String duplicate="";
+		int count=0;
+		for(int i =0;i<n;i++) {
+			for(int j=i+1;j<n;j++)
+			{
+				if(var1.charAt(i)== var1.charAt(j))
+				{
+					duplicate=duplicate+var1.charAt(i);
+					count++;
+				}
+			}
+		}
+		System.out.println("duplicated values in string  :"+duplicate +"\ncount:" +count);
+		
+	}
+//..(slient,listen)(abcd,dbac)_ if two strings are anagrams of each other?
+	void anagrams()
+	{
+		System.out.println("enter strings");
+		Scanner sc = new Scanner(System.in);
+		String var1 =  sc.next();
+		String var2 =  sc.next();
+		int n1 = var1.length();
+		int n2 = var2.length();
+		if(n1==n2)
+		{int flag =0;
+			for(int i=0;i<n1;i++)
+			{
+				for(int j=0;j<n1;j++)
+				{
+					if(var1.charAt(i)==var2.charAt(i));
+					flag=1;
+				}
+				if(flag!=1)
+				{
+					break;
+				}
+				System.out.println("given string is anagram");
+				break;
+				
+			}
+			System.out.println("given string is not anagram");
+			
+		}
+		else
+		{
+			System.out.println("given string is not anagram");
+		}
+
+	}
+}
+	
+
+
+public class Day2_String {
+
+	public static void main(String[] args) {
+	StringPgm r = new StringPgm();
+	//r.RevString();
+	//r.duplicates();
+	r.anagrams();
+
+	}
+
+}

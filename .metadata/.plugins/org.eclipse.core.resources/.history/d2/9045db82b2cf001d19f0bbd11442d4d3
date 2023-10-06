@@ -1,0 +1,38 @@
+package day9;
+
+import java.util.Scanner;
+
+public class Admin {
+	String name;
+	String email;
+	static String code;
+	
+	void input()
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter name");
+		name = sc.next();
+		System.out.println("enter email");
+		email = sc.next();
+		//System.out.println("enter code");
+		//code = sc.next();
+	}
+	static void banner()
+	{
+		code = "asvbgetyui";
+	}
+	void display()
+	{
+		System.out.println(name);
+		System.out.println(email);
+		System.out.println(code);
+	}
+	public static void main(String args[]) {
+		Admin a= new Admin();
+		a.input();
+		Admin.banner();
+		
+		
+	}
+
+}

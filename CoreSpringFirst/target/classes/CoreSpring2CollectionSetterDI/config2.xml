@@ -1,0 +1,49 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation=" http://www.springframework.org/schema/beans 
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="proj1" class="CoreSpring2CollectionSetterDI.Project2"
+		p:name="Online banking" p:technology="springBoot" />
+	<bean id="proj2" class="CoreSpring2CollectionSetterDI.Project2"
+		p:name="Online Examination" p:technology="DotNet" />
+	<bean id="stu" class="CoreSpring2CollectionSetterDI.Project2">
+		<property name="rollno">
+			<value>13</value>
+		</property>
+		<property name="name">
+			<value>heena</value>
+		</property>
+		<property name="marks">
+			<value>89.8</value>
+		</property>
+		<property name="proj">
+			<ref bean="proj1" />
+		</property>
+	</bean>
+	<bean name="stu1"
+		class="CoreSpringSecondStudent2">
+		<property name="rollno" value="11" />
+		<property name="name" value="meeta" />
+		<property name="marks" value="91.8" />
+		<property name="proj" ref="proj2" />
+		<property name="phone">
+		<list>
+		<value>123644788 </value>
+		<value>12364788 </value>
+		<value>3644788 </value></list></property>
+			<property name="email">
+		<set>
+		<value>ac@gmail.com </value>
+		<value>bf@gmail.com </value>
+		<value>basf@gmail.com  </value></set></property>
+		<property name="course">
+		<map>
+		<entry key = "java pgm" value ="4"/>
+		<entry key = "spring pgm" value ="5"/>
+		</map></property>
+	</bean>
+	<bean name="stu2"
+		class="CoreSpring2CollectionSetterDI.Project2" p:rollno="10"
+		p:name="meena" p:marks="98.8" p:proj-ref="proj1" />
+</beans>

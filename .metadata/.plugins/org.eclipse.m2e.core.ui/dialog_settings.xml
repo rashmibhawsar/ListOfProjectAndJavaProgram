@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="D:\Rashmi_cdac\workspace2\ASpringMVCWithJdbc\src\main\java\cdac\springmvc\controller\MyController.java"/>
+			<item value="D:\Rashmi_cdac\workspace2\ASpringMVCWithJdbc"/>
+			<item value="D:\Rashmi_cdac\workspace2\ASpringMvc"/>
+			<item value="D:\Rashmi_cdac\workspace2\Aopspring\src\main\java\com\Aopspring\Aopspring\config.xml"/>
+			<item value="D:\Rashmi_cdac\workspace2\CoreSpringFirst\src\main\java\CoreSpring8_Bean_Init_distroy_annotation\notes.java"/>
+			<item value="D:\Rashmi_cdac\workspace2\librarymanagement\src\main\java\model\Bookpojo.java"/>
+			<item value="D:\Rashmi_cdac\workspace2\ruf2"/>
+			<item value="D:\Rashmi_cdac\workspace2\lmsproject"/>
+			<item value="D:\Rashmi_cdac\workspace2\hibernate_liberarymgmtproject\src\main\java\Dao\BookDao.java"/>
+			<item value="D:\Rashmi_cdac\workspace2\hibrnate_relationship_maven_project\src\main\webapp\index.jsp"/>
+			<item value="D:\Rashmi_cdac\workspace2\hibrnate_relationship_maven_project\src\main\webapp\Addcustomer.jsp"/>
+			<item value="D:\Rashmi_cdac\workspace2\hibrnate_relationship_maven_project"/>
+			<item value="D:\Rashmi_cdac\workspace2"/>
+			<item value="D:\Rashmi_cdac\workspace2\hibrnate_relationship_maven_project\src\main\webapp\view_all_customer_data.jsp"/>
+			<item value="D:\Rashmi_cdac\workspace2\classassignment_useBean"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.cdac.AMVCWithJdbc.SPRINGMVCRUF"/>
+			<item value="com.cdac.AASpringMVCWithJdbc"/>
+			<item value="com.cdac.MVCWithJdbc"/>
+		</list>
+		<list key="groupId">
+			<item value="com.cdac.AMVCWithJdbc"/>
+			<item value="com.cdac.AASpringMVCWithJdbc"/>
+			<item value="com.cdac"/>
+		</list>
+		<list key="artifactId">
+			<item value="SPRINGMVCRUF"/>
+			<item value="AASpringMVCWithJdbc"/>
+			<item value="MVCWithJdbc"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="hibernate"/>
+			<item value="demoproject_usingHibernate"/>
+			<item value="ruf2"/>
+			<item value="ruf1"/>
+			<item value="coreSpringNew"/>
+			<item value="hibrnate_project"/>
+		</list>
+		<list key="name">
+			<item value="myfirstmavenpro"/>
+		</list>
+		<list key="artifactId">
+			<item value="hibernate"/>
+			<item value="demoproject_usingHibernate"/>
+			<item value="ruf2"/>
+			<item value="ruf1"/>
+			<item value="coreSpringNew"/>
+			<item value="hibrnate_project"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="D:\Rashmi_cdac\cdac\cdac_noida\ADVANCE_JAVA\spring_boot\mam_pgm\SpringMVCWithJPA"/>
+			<item value="C:\Users\rupes\Downloads\Spring_MVC_with_Jdbc"/>
+			<item value="C:\Users\rupes\Downloads\MVCWithJdbc"/>
+			<item value="C:\Users\rupes\Downloads\coreSpring"/>
+			<item value="C:\Users\rupes\Downloads\hibernateassociation"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="667"/>
+		<item key="x" value="720"/>
+		<item key="y" value="66"/>
+	</section>
+</section>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;jstl_taglib_core_sql_function/src/main/webapp/useof_coretaglib.jsp&apos; to &apos;useof_core_sqltaglib.jsp&apos;" description="Rename resource &apos;useof_coretaglib.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/useof_coretaglib.jsp" name="useof_core_sqltaglib.jsp" stamp="1684822080930" updateReferences="true"/>
+</session>

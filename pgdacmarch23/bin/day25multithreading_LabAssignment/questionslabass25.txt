@@ -1,0 +1,20 @@
+Q 1   Write a multi- threaded program that prints even and odd number one after another .create two separate classes to print even and odd number and call there objects in main
+
+Q2  create a class that has fileread(String filename) method that display  file contents word by word and sleep for 1000 milliseconds
+
+
+  b)create two thread both calling same function in run method with different filename .
+
+
+c) Make sure that second thread should not interrupt the output of first thread
+d) when printing work  of first thread is complete then only second thread should get started.
+
+
+Q 3 wap to define method in class syncthread that read file content and display it character by character .
+
+void readFile(Strng filename)  
+
+create thread class ShowFileThread  that calls above method in run 
+
+In main ask filename from command line .if user doesnot enter filename from command line throw exception else pass filename to two objects of showfileThread class 
+Use  synchronized concept to run one thread at a time

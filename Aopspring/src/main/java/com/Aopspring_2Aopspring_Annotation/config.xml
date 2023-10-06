@@ -1,0 +1,28 @@
+<beans xmlns="http://www.springframework.org/schema/beans" 
+xmlns:p="http://www.springframework.org/schema/p" 
+xmlns:aop="http://www.springframework.org/schema/aop" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation=" http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans.xsd 
+ http://www.springframework.org/schema/aop 
+ http://www.springframework.org/schema/aop/spring-aop.xsd">
+ 
+<!-- <aop:config>
+<aop:aspect id="all" ref="aspect">
+  <aop:pointcut expression="execution(* com.cdac.AOPSpring.Account.deposit())" id="my"/>  
+<aop:pointcut expression="execution(* com.cdac.AOPSpring.Account.*())" id="my"/>
+<aop:pointcut expression="execution(* com.cdac.AOPSpring.Account.*(..))" id="my1"/>
+
+<aop:pointcut expression="execution(* com.Aopspring.Aopspring.Account.deposit(..))" id="my"/>
+<aop:pointcut expression="execution(* com.Aopspring.Aopspring.Account.withdrawl(..))" id="my1"/>
+<aop:before method="authentication" pointcut-ref="my"/>
+<aop:before method="authentication" pointcut-ref="my1"/>
+<aop:after method="update" pointcut-ref="my"/>
+  </aop:aspect>
+  </aop:config> -->
+  <aop:aspectj-autoproxy/><!-- to enable all the anotations in aop -->
+  
+<bean id="emp" class="com.Aopspring_2Aopspring_Annotation.Employee"  />
+<bean id="aspect" class="com.Aopspring_2Aopspring_Annotation.EmployeeAspect" />
+
+</beans>

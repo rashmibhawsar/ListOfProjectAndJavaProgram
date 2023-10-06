@@ -1,0 +1,16 @@
+127.0.0.1 - - [06/Jun/2023:16:23:20 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [06/Jun/2023:16:23:21 +0530] "GET /hibrnate_project/index.jsp HTTP/1.1" 200 357
+0:0:0:0:0:0:0:1 - - [06/Jun/2023:16:23:21 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [06/Jun/2023:16:23:24 +0530] "GET /hibrnate_project/sellerindex.jsp HTTP/1.1" 200 607
+0:0:0:0:0:0:0:1 - - [06/Jun/2023:16:23:26 +0530] "GET /hibrnate_project/index.jsp HTTP/1.1" 200 357
+0:0:0:0:0:0:0:1 - - [06/Jun/2023:16:23:28 +0530] "GET /hibrnate_project/sellerindex.jsp HTTP/1.1" 200 607
+0:0:0:0:0:0:0:1 - - [06/Jun/2023:16:23:30 +0530] "GET /hibrnate_project/AddSellerform_regesration.jsp HTTP/1.1" 200 1078
+0:0:0:0:0:0:0:1 - - [06/Jun/2023:16:23:41 +0530] "GET /hibrnate_project/DeleteSellerform.jsp HTTP/1.1" 200 893
+0:0:0:0:0:0:0:1 - - [06/Jun/2023:16:23:43 +0530] "GET /hibrnate_project/UpdateSellerform.jsp HTTP/1.1" 200 954
+0:0:0:0:0:0:0:1 - - [06/Jun/2023:16:23:46 +0530] "GET /hibrnate_project/view_searchdataform.jsp HTTP/1.1" 200 852
+0:0:0:0:0:0:0:1 - - [06/Jun/2023:16:23:55 +0530] "GET /hibrnate_project/AddSellerform_regesration.jsp HTTP/1.1" 200 1078
+0:0:0:0:0:0:0:1 - - [06/Jun/2023:16:23:55 +0530] "GET /hibrnate_project/view_all_seller_data.jsp HTTP/1.1" 200 1127
+0:0:0:0:0:0:0:1 - - [06/Jun/2023:16:23:55 +0530] "GET /hibrnate_project/view_all_seller_data.jsp HTTP/1.1" 200 1127
+0:0:0:0:0:0:0:1 - - [06/Jun/2023:16:23:59 +0530] "GET /hibrnate_project/view_searchdataform.jsp HTTP/1.1" 200 852
+127.0.0.1 - - [06/Jun/2023:19:02:46 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [06/Jun/2023:19:02:47 +0530] "GET /rufproject/index.jsp HTTP/1.1" 200 57

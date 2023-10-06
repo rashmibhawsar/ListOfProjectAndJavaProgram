@@ -1,0 +1,20 @@
+1685586120944	Rename type 'Student1'
+1685608809289	Rename type 'Student3'
+1685620223493	Rename package 'CoreSpringFactoryDI'
+1685620280346	Rename package 'CoreSpringFactory4DI'
+1685620378960	Delete element
+1685620400064	Copy compilation unit
+1685620409628	Delete element
+1685622118959	Rename package 'CoreSpringThird'
+1685625345292	Rename package 'CoreSpringThirdCtor'
+1685673556071	Rename package 'com.cdac.CoreSpringFirst'
+1685673620453	Rename package 'com.cdac.CoreSpring5'
+1685673748928	Rename package 'CoreSpringSecond'
+1685699778110	Rename package 'CoreSpring5'
+1685705179770	Rename package 'CoreSpring7AutoWiring'
+1685705260357	Delete element
+1685707357193	Delete element
+1685720444847	Delete element
+1685721726974	Rename type 'Course'
+1685721740743	Rename type 'Faculty'
+1685725553206	Rename resource 'config.xml'

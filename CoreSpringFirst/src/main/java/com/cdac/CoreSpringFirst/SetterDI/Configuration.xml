@@ -1,0 +1,34 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation=" http://www.springframework.org/schema/beans 
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="proj1" class="com.cdac.CoreSpringFirst.SetterDI.Project"
+		p:name="Online banking" p:technology="springBoot" />
+	<bean id="proj2" class="com.cdac.CoreSpringFirst.SetterDI.Project"
+		p:name="Online Examination" p:technology="DotNet" />
+	<bean id="stu" class="com.cdac.CoreSpringFirst.SetterDI.Student">
+		<property name="rollno">
+			<value>13</value>
+		</property>
+		<property name="name">
+			<value>heena</value>
+		</property>
+		<property name="marks">
+			<value>89.8</value>
+		</property>
+		<property name="proj">
+			<ref bean="proj1" />
+		</property>
+	</bean>
+	<bean name="stu1"
+		class="com.cdac.CoreSpringFirst.SetterDI.Student">
+		<property name="rollno" value="11" />
+		<property name="name" value="meeta" />
+		<property name="marks" value="91.8" />
+		<property name="proj" ref="proj2" />
+	</bean>
+	<bean name="stu2"
+		class="com.cdac.CoreSpringFirst.SetterDI.Student" p:rollno="10"
+		p:name="meena" p:marks="98.8" p:proj-ref="proj1" />
+</beans>
